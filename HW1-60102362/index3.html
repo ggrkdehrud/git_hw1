@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ChangHo World</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet/ex1.css">
+</head>
+<body>
+	<div id="wrap">
+		<div id="top">
+			<h1>창호's WORLD!!!</h1>
+		</div>
+
+		<div id="header">
+			<ul>
+				<li><a href="index1.html">기본정보</a></li>
+				<li><a href="index2.html">여가생활</a></li>
+				<li><a href="index3.html">설문조사</a></li>
+			</ul>
+		</div>
+
+		<div id="content_info">
+			<div class="word">간략한 설문조사</div>
+			<form action="#" method="post">
+				<table>
+					<tr>
+						<th>이름</th>
+						<td colspan="3"><input class="left" type="text" name="name">
+					</tr>
+					<tr>
+						<th>비밀번호</th>
+						<td><input type="password" name="password" value="">
+						<th>비밀번호 확인</th>
+						<td><input type="password" name="password" value="">
+					</tr>
+					<tr>
+						<th>방문자 성별</th>
+						<td colspan="3"><input type="radio" name="sex" value="male">남자
+										<input type="radio" name="sex" value="female">여자
+					</tr>
+					<tr>
+						<th>관리자 나이 평가</th>
+						<td colspan="3">
+							<input type="radio" name="age" value="ten">10~20세
+							<input type="radio" name="age" value="twenty">20~30세
+							<input type="radio" name="age" value="thirty">30세~40세
+						</td>
+					</tr>
+					<tr>
+						<th>잘한것같은 운동(중복가능)</th>
+						<td colspan="3">
+							<input type="checkbox" name="sport" value="baseball">야구
+							<input type="checkbox" name="sport" value="basketball">농구
+							<input type="checkbox" name="sport" value="soccer">축구
+							<input type="checkbox" name="sport" value="valleyball">배구
+						</td>
+					</tr>
+					<tr>
+						<th colspan="4">전반적인 평가를 적어주세요.</th>
+					</tr>
+					<tr>
+						<td colspan="4">
+							<textarea name="filed" rows="10" cols="100"></textarea></td>
+					</tr>
+					<tr>
+						<td colspan="4" class="left">
+							<input type="submit" value="전송하기">
+							<input type="reset" value="다시 작성하기">
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+				<div id="footer">
+			<p>사이트 소개 | 이용약관 | 개인정보취급방침 | 책임의 한계와 법적 고지 | 고객센터 </p>
+			<p>
+				Copyright © MJUCafe. All rights reserved.
+			</p>
+		</div>
+	</div>
+</body>
+</html>
